@@ -14,8 +14,8 @@ const [load,setLoading] = useState(false);
         <img className={styles.pic} src={imgg} alt="pic" />
       </div>
       
-      <div className={styles.set} >
-               <h4 onClick={()=>setLoading(!load)}>{name}</h4>
+      <div onClick={()=>setLoading(!load)} className={styles.set} >
+               <h4 >{name}</h4>
         
 
         <p>{email}</p>
